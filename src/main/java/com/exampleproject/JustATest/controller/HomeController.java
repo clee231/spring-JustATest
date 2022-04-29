@@ -8,6 +8,6 @@ public class HomeController {
   
   @RequestMapping("/home")
   public String getHomeString() {
-    return "index";
+    return "index"; // This is a name of the file in your src/main/resources/templates folder.
   }
 }
